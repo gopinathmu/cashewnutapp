@@ -1,0 +1,30 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+    height: 700px; 
+   
+  }
+  
+  .slide {
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+    animation: fade 1s ease-in-out;
+  }
+  
+ .image{
+    height: 700px;
+    width: 100%;
+ }
+
+ @media (max-width: 760px) {
+  .slider-container {
+    height: 400px;
+  }
+
+  .image {
+    height: 400px;
+  }
+}

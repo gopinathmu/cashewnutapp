@@ -1,0 +1,186 @@
+* {
+   margin: 0;
+    padding: 0;
+
+  }
+  
+  article {
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+  
+  }
+  
+  .cart_box img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+  }
+  .cart_img {
+  
+    display: flex;
+    width: 400px;
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 2px solid skyblue;
+    padding-bottom: 5px;
+    
+  }
+  
+  .cart_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .cart_box div:nth-child(3) button {
+    padding: 7px 6px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(249, 47, 7);
+    border-radius: 5px;
+    cursor: pointer;
+   
+  }
+  
+  .cart_box div:nth-child(3) span {
+    background-color: rgb(191, 197, 191);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  
+  .total span:nth-child(1) {
+    font-size: 2rem;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    letter-spacing: 2px;
+  
+  }
+  
+  
+  .total span:nth-child(2) {
+    font-size: 2rem;
+    color: rgb(42, 40, 40);
+    font-weight: bold;
+
+  }
+.exit-btn{
+    margin-left: 400px;
+    margin-top: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+    color: red;
+}
+
+@media (max-width: 760px) {
+ 
+  article {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  article p {
+    font-size: 12px;
+  }
+  
+  .cart_box img {
+    width: 40px; 
+    height: 40px; 
+    border: 1px solid black;
+  }
+  
+  .cart_img {
+    display: flex;
+    flex-direction: column; 
+    
+    
+  }
+  .add-btn{
+    display: flex;
+  }
+
+  .cart_box div:nth-child(2) button {
+    padding: 1px 5px;
+    font-weight: bold;
+    margin-top: 10px; 
+  }
+  
+  .cart_box div:nth-child(3) button {
+    padding: 0px 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(249, 47, 7);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+  }
+  
+  .cart_box div:nth-child(3) span {
+    background-color: rgb(191, 197, 191);
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin-top: 10px; 
+  }
+ 
+  .total {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-size: 10px;
+  }
+  
+  .total span:nth-child(1) {
+    font-size: 15px;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 10px;
+  }
+  
+  .total span:nth-child(2) {
+    font-size: 15px; 
+    color: rgb(252, 0, 0);
+    font-weight: bold;
+    margin-top: 10px; 
+  }
+  .del{
+    display: flex;
+    font-size: 13px;
+    gap: 20px;
+  }
+  
+  .exit-btn {
+    margin-left: 100px; 
+    margin-top: 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+    color: red;
+  }
+}
