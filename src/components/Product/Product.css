@@ -74,6 +74,7 @@ section h1{
   
     .list {
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
       width: 50px;
       padding: 7px;
       column-gap: 50px;
@@ -82,17 +83,19 @@ section h1{
     }
 
     .cards button{
-        width: 120px;
+        width: 100px;
         padding: 2px;
-        font-size: 15px;
+        font-size: 13px;
     }
     
-    .cards h3{
-        font-size: 15px;
+
+    .details h3{
+      font-size: 12px;
     }
+
     .cards {
       width: 100px;
-      height: 180px;
+      height: 150px;
       font-size: 10px;
     
     }
